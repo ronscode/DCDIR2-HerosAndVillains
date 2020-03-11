@@ -7,13 +7,9 @@ class Person {
     this.weapon = null;
   }
 
-  // Method for equipWeapon
-
   equipWeapon(weapon) {
     this.weapon = weapon;
   }
-
-  // Method for attack
 
   attack(person) {
     person.health = person.health - this.weapon.damage;

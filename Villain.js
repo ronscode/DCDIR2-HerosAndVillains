@@ -8,12 +8,12 @@ class Villain extends Person {
     return `
     <div class="col-6">
   <div >
-    <h3 id="villainName">Davros</h3>
+    <h3 id="villainName">${this.name}</h3>
     <div>
-      Health: <span id="villainHealth">100</span>
+      Health: <span id="villainHealth">${this.health}</span>
     </div>
-    <h4>Weapon: <span id="villainWeapon">Doubt and bad vibes</span></h4>
-    <button class="btn btn-secondary">Attack Good Guy!</button>
+    <h4>Weapon: <span id="villainWeapon">${this.weapon.name}</span></h4>
+    <button id="attackVillain" class="btn btn-secondary">Attack Good Guy!</button>
   </div>
 </div>
   <div class="col-6">
@@ -22,7 +22,4 @@ class Villain extends Person {
     `
   }
 }
-
-
-
 
