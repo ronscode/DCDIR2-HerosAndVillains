@@ -1,0 +1,1 @@
+console.log("Weapon.js started...")
